@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Tipos Primitivos e Variaveis.java">
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula13/CurtoCircuito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula13/OperadoresAritiméticos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula13/OperadoresLógicos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula13/OperadoresRelacionais.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Operadores Relacionais e Aritiméticos." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +75,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690317916034</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Operadores Relacionais e Aritiméticos.">
+      <option name="closed" value="true" />
+      <created>1690388716146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690388716146</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,7 +111,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tipos Primitivos e Variaveis.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tipos Primitivos e Variaveis.java" />
+    <MESSAGE value="Operadores Relacionais e Aritiméticos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Operadores Relacionais e Aritiméticos." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
