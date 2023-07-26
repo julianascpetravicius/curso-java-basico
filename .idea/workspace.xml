@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Tipos Primitivos e Variaveis.java">
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula13/CurtoCircuito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula13/OperadoresAritiméticos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula13/OperadoresLógicos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula13/OperadoresRelacionais.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -21,6 +32,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="2T4BxdwF2IpjpJbRcY6FpbXQVWL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,15 +40,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "onboarding.tips.debug.path": "C:/curso-java-basico/curso-java-basico/src/Main.java",
-    "settings.editor.selected.configurable": "settings.sync"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/curso-java-basico/curso-java-basico/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,6 +85,29 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tipos Primitivos e Variaveis.java" />
     <option name="LAST_COMMIT_MESSAGE" value="Tipos Primitivos e Variaveis.java" />
@@ -84,6 +119,11 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/loiane/cursojava/aula11/VariaveisBooleans.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
