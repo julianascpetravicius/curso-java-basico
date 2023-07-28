@@ -11,9 +11,9 @@ public class Exercício8 {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Informe o valor que você ganha por hora e o número de horas trabalhadas:");
-        int valor = scan.nextInt();
-        int hora = scan.nextInt();
-        int resultado = valor * hora;
+        double valor = scan.nextDouble();
+        double hora = scan.nextDouble();
+        double resultado = valor * hora;
         System.out.println("O valor do seu salário no referido mês é de: "+ resultado +"€");
 
     }

@@ -9,11 +9,12 @@ public class Exercício7 {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Digite a base e a altura do quadrado em metros:");
-        int base = scan.nextInt();
-        int altura = scan.nextInt();
-        int resultado = base * altura * 2;
-        System.out.println("O dobro da área do quadrado é: "+ resultado +"m");
+        System.out.println("Digite um lado do quadrado em metros:");
+        double lado = scan.nextDouble();
+
+        double area = Math.pow(lado, 2);
+        System.out.println("A área do quadrado é: "+ area +"m");
+        System.out.println("O dobro da área do quadrado é " + area * 2 +"m" );
 
     }
 }
