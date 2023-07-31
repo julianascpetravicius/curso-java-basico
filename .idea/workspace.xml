@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Exercícios aula 13-14.">
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula14/labs/Exercício1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula14/labs/Exercício2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula14/labs/Exercício3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula14/labs/Exercício4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula14/labs/Exercício5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula14/labs/Exercício6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula14/labs/Exercício7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula14/labs/Exercício9.java" afterDir="false" />
+    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Exercícios aula 14-15.">
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690722231706</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Exercícios aula 14-15.">
+      <option name="closed" value="true" />
+      <created>1690810865768</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690810865784</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Exercícios aula 14-15.">
+      <option name="closed" value="true" />
+      <created>1690811239342</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690811239342</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +206,8 @@
     <MESSAGE value="Exercícios 4-8 aula 13." />
     <MESSAGE value="Exercícios corrigidos aula 13." />
     <MESSAGE value="Exercícios aula 13-14." />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercícios aula 13-14." />
+    <MESSAGE value="Exercícios aula 14-15." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercícios aula 14-15." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
