@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Exercícios aula 16 e 17.">
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula19/Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula19/labs/Exercício1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula19/labs/Exercício2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula19/labs/Exercício3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula19/labs/Exercício4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/MatrizTridimensional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/Matrizes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/MatrizesIrregulares.java" afterDir="false" />
+    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Exercícios aula 14-15.">
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/LoopWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/LoopFor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/LoopWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/LoopWhile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,28 +32,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="MIXED" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;history&quot;: [
-    {
-      &quot;state&quot;: &quot;OPEN&quot;,
-      &quot;author&quot;: &quot;julianascpetravicius&quot;
-    }
-  ],
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;author&quot;: &quot;julianascpetravicius&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="6dc13a67-acc1-4aaa-91b2-61e33dc63824" />
-        <option name="url" value="https://github.com/julianascpetravicius/curso-java-basico.git" />
-      </UrlAndAccount>
-    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../Program Files/Java/jdk-20/lib/src.zip!/java.net.http/jdk/internal/net/http/HttpClientImpl.java" root0="FORCE_HIGHLIGHTING" />
@@ -90,50 +50,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/curso-java-basico/curso-java-basico/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
-    ]
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="Exercício3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.loiane.cursojava.aula19.labs.Exercício3" />
-      <module name="curso-java-basico" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.loiane.cursojava.aula19.labs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoopWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.loiane.cursojava.aula16.LoopWhile" />
-      <module name="curso-java-basico" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.loiane.cursojava.aula16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Exercício3" />
-        <item itemvalue="Application.LoopWhile" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -263,55 +182,7 @@
       <option name="project" value="LOCAL" />
       <updated>1690812662269</updated>
     </task>
-    <task id="LOCAL-00016" summary="Loop While, Do While e Loop For.">
-      <option name="closed" value="true" />
-      <created>1690908158175</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1690908158376</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Loop While, Do While e Loop For.">
-      <option name="closed" value="true" />
-      <created>1690908416574</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1690908416574</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Exercícios aula 16 e 17.">
-      <option name="closed" value="true" />
-      <created>1691075472162</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1691075472178</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Loops, break, continue, arrays.">
-      <option name="closed" value="true" />
-      <created>1691075780772</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1691075780772</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Loops, break, continue, arrays.">
-      <option name="closed" value="true" />
-      <created>1691075851020</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1691075851020</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Exercícios aula 16 e 17.">
-      <option name="closed" value="true" />
-      <created>1691076945275</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1691076945275</updated>
-    </task>
-    <option name="localTasksCounter" value="22" />
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,7 +196,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -345,10 +216,7 @@
     <MESSAGE value="Exercícios corrigidos aula 13." />
     <MESSAGE value="Exercícios aula 13-14." />
     <MESSAGE value="Exercícios aula 14-15." />
-    <MESSAGE value="Loop While, Do While e Loop For." />
-    <MESSAGE value="Loops, break, continue, arrays." />
-    <MESSAGE value="Exercícios aula 16 e 17." />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercícios aula 16 e 17." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercícios aula 14-15." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
