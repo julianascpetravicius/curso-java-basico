@@ -6,7 +6,7 @@ public class Exercício15 {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+         Scanner scan = new Scanner(System.in);
 
         System.out.println("Entre com o n-ésimo termo da série de Fibonacci:");
         int n = scan.nextInt();
@@ -23,6 +23,7 @@ public class Exercício15 {
 
             System.out.println(proximo);
         }
+
 
     }
 }

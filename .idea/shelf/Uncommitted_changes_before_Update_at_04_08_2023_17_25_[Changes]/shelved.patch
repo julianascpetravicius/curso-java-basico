@@ -1,0 +1,479 @@
+Index: src/com/loiane/cursojava/aula16/labs/Exercício4.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loiane.cursojava.aula16.labs;\r\n\r\npublic class Exercício4 {\r\n\r\n    public static void main(String[] args) {\r\n\r\n        long popA = 80000;\r\n        long popB = 200000;\r\n        int cont = 0;\r\n\r\n        while(popA < popB){\r\n\r\n            popA += (popA/100)* 3;\r\n            popB +=  (popB/100) * 1.5;\r\n            cont++;\r\n        }\r\n\r\n        System.out.println(\"População A: \"+ popA);\r\n        System.out.println(\"População B: \"+ popB);\r\n        System.out.println(\"Qtd anos:    \"+ cont);\r\n\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/loiane/cursojava/aula16/labs/Exercício4.java b/src/com/loiane/cursojava/aula16/labs/Exercício4.java
+--- a/src/com/loiane/cursojava/aula16/labs/Exercício4.java	(revision b6f382fa79e7a7942db7e12a0a923b99f14fe564)
++++ b/src/com/loiane/cursojava/aula16/labs/Exercício4.java	(date 1691079376295)
+@@ -4,20 +4,18 @@
+ 
+     public static void main(String[] args) {
+ 
+-        long popA = 80000;
+-        long popB = 200000;
+-        int cont = 0;
++        long popA = 80000L;
++        long popB = 200000L;
+ 
+-        while(popA < popB){
+-
+-            popA += (popA/100)* 3;
+-            popB +=  (popB/100) * 1.5;
+-            cont++;
++        int cont;
++        for(cont = 0; popA < popB; ++cont) {
++            popA += popA / 100L * 3L;
++            popB = (long)((double)popB + (double)(popB / 100L) * 1.5);
+         }
+ 
+-        System.out.println("População A: "+ popA);
+-        System.out.println("População B: "+ popB);
+-        System.out.println("Qtd anos:    "+ cont);
++        System.out.println("População A: " + popA);
++        System.out.println("População B: " + popB);
++        System.out.println("Qtd anos:    " + cont);
+ 
+     }
+ }
+Index: src/com/loiane/cursojava/aula16/labs/Exercício1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loiane.cursojava.aula16.labs;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Exercício1 {\r\n\r\n    public static void main(String[] args) {\r\n\r\n        Scanner scan = new Scanner(System.in);\r\n\r\n        boolean notaValida = false;\r\n\r\n        do {\r\n\r\n            System.out.println(\"Entre com uma nota\");\r\n\r\n            double nota = scan.nextDouble();\r\n\r\n            if (nota >=0 && nota <= 10){\r\n                notaValida = true;\r\n                System.out.println(\"Você digitou: \" + nota);\r\n            } else {\r\n                //notaValida = false;\r\n                System.out.println(\"Nota inválida, digite novamente.\");\r\n            }\r\n\r\n        } while (!notaValida);\r\n\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/loiane/cursojava/aula16/labs/Exercício1.java b/src/com/loiane/cursojava/aula16/labs/Exercício1.java
+--- a/src/com/loiane/cursojava/aula16/labs/Exercício1.java	(revision b6f382fa79e7a7942db7e12a0a923b99f14fe564)
++++ b/src/com/loiane/cursojava/aula16/labs/Exercício1.java	(date 1691079376467)
+@@ -6,26 +6,21 @@
+ 
+     public static void main(String[] args) {
+ 
+-        Scanner scan = new Scanner(System.in);
+-
++          Scanner scan = new Scanner(System.in);
+         boolean notaValida = false;
+ 
+         do {
+-
+             System.out.println("Entre com uma nota");
+-
+             double nota = scan.nextDouble();
+-
+-            if (nota >=0 && nota <= 10){
++            if (nota >= 0.0 && nota <= 10.0) {
+                 notaValida = true;
+                 System.out.println("Você digitou: " + nota);
+             } else {
+-                //notaValida = false;
+                 System.out.println("Nota inválida, digite novamente.");
+             }
+-
+-        } while (!notaValida);
++        } while(!notaValida);
+ 
++
+     }
+ }
+ 
+Index: src/com/loiane/cursojava/aula17/labs/Exercício18.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loiane.cursojava.aula17.labs;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Exercício18 {\r\n\r\n    public static void main(String[] args) {\r\n\r\n        Scanner scan = new Scanner(System.in);\r\n\r\n        System.out.println(\"Digite um número\");\r\n        int num = scan.nextInt();\r\n\r\n        System.out.println(num + \"! = \");\r\n\r\n        int fatorial = 1;\r\n        for (int i=num; i>0; i--){\r\n            fatorial *= i;\r\n            System.out.println(i);\r\n        }\r\n        System.out.println(\"Resultado: \"+ fatorial);\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/loiane/cursojava/aula17/labs/Exercício18.java b/src/com/loiane/cursojava/aula17/labs/Exercício18.java
+--- a/src/com/loiane/cursojava/aula17/labs/Exercício18.java	(revision b6f382fa79e7a7942db7e12a0a923b99f14fe564)
++++ b/src/com/loiane/cursojava/aula17/labs/Exercício18.java	(date 1691079376373)
+@@ -19,6 +19,7 @@
+             System.out.println(i);
+         }
+         System.out.println("Resultado: "+ fatorial);
++
+     }
+ }
+ 
+Index: src/com/loiane/cursojava/aula17/labs/Exercício15.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loiane.cursojava.aula17.labs;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Exercício15 {\r\n\r\n    public static void main(String[] args) {\r\n\r\n        Scanner scan = new Scanner(System.in);\r\n\r\n        System.out.println(\"Entre com o n-ésimo termo da série de Fibonacci:\");\r\n        int n = scan.nextInt();\r\n\r\n        int primeiro = 1;\r\n        int segundo = 1;\r\n        int proximo = 1;\r\n\r\n        for (int i=3; i<=n; i++){\r\n\r\n            proximo = primeiro + segundo;\r\n            primeiro = segundo;\r\n            segundo = proximo;\r\n\r\n            System.out.println(proximo);\r\n        }\r\n\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/loiane/cursojava/aula17/labs/Exercício15.java b/src/com/loiane/cursojava/aula17/labs/Exercício15.java
+--- a/src/com/loiane/cursojava/aula17/labs/Exercício15.java	(revision b6f382fa79e7a7942db7e12a0a923b99f14fe564)
++++ b/src/com/loiane/cursojava/aula17/labs/Exercício15.java	(date 1691079375309)
+@@ -6,7 +6,7 @@
+ 
+     public static void main(String[] args) {
+ 
+-        Scanner scan = new Scanner(System.in);
++         Scanner scan = new Scanner(System.in);
+ 
+         System.out.println("Entre com o n-ésimo termo da série de Fibonacci:");
+         int n = scan.nextInt();
+@@ -24,6 +24,7 @@
+             System.out.println(proximo);
+         }
+ 
++
+     }
+ }
+ 
+Index: src/com/loiane/cursojava/aula16/labs/Exercício2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loiane.cursojava.aula16.labs;\r\n/*Faça um programa que leia um nome de usuário e a sua senha e não\r\naceite a senha igual ao nome do usuário, mostrando uma mensagem\r\nde erro e voltando a pedir as informações.*/\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Exercício2 {\r\n\r\n    public static void main(String[] args) {\r\n\r\n        Scanner scan = new Scanner(System.in);\r\n\r\n        boolean infoValida = false;\r\n\r\n        do {\r\n            System.out.println(\"Entre com o usuário: \");\r\n            String user = scan.next();\r\n\r\n             System.out.println(\"Entre com a senha: \");\r\n             String senha = scan.next();\r\n\r\n\r\n            if (user.equalsIgnoreCase(senha)) {\r\n                //infoValida = false;\r\n                System.out.println(\"Senha igual ao usuário, digite novamente.\");\r\n            } else {\r\n                infoValida = true;\r\n                System.out.println(\"Senha e ususários válidos\");\r\n            }\r\n        } while (!infoValida);\r\n\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/loiane/cursojava/aula16/labs/Exercício2.java b/src/com/loiane/cursojava/aula16/labs/Exercício2.java
+--- a/src/com/loiane/cursojava/aula16/labs/Exercício2.java	(revision b6f382fa79e7a7942db7e12a0a923b99f14fe564)
++++ b/src/com/loiane/cursojava/aula16/labs/Exercício2.java	(date 1691079376154)
+@@ -1,7 +1,4 @@
+ package com.loiane.cursojava.aula16.labs;
+-/*Faça um programa que leia um nome de usuário e a sua senha e não
+-aceite a senha igual ao nome do usuário, mostrando uma mensagem
+-de erro e voltando a pedir as informações.*/
+ 
+ import java.util.Scanner;
+ 
+@@ -10,26 +7,22 @@
+     public static void main(String[] args) {
+ 
+         Scanner scan = new Scanner(System.in);
+-
+         boolean infoValida = false;
+ 
+         do {
+             System.out.println("Entre com o usuário: ");
+             String user = scan.next();
+-
+-             System.out.println("Entre com a senha: ");
+-             String senha = scan.next();
+-
+-
++            System.out.println("Entre com a senha: ");
++            String senha = scan.next();
+             if (user.equalsIgnoreCase(senha)) {
+-                //infoValida = false;
+                 System.out.println("Senha igual ao usuário, digite novamente.");
+             } else {
+                 infoValida = true;
+                 System.out.println("Senha e ususários válidos");
+             }
+-        } while (!infoValida);
++        } while(!infoValida);
+ 
++
+     }
+ }
+ 
+Index: src/com/loiane/cursojava/aula16/labs/Exercício21.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loiane.cursojava.aula16.labs;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Exercício21 {\r\n\r\n    public static void main(String[] args) {\r\n\r\n         Scanner scan = new Scanner(System.in);\r\n\r\n        System.out.println(\"Entre com um número\");\r\n        int num = scan.nextInt();\r\n\r\n        boolean primo = true;\r\n\r\n\r\n        for (int i=2; i<num; i++){\r\n            if (num % i == 0){\r\n                System.out.println(\"Não é primo - divisível por \" + i);\r\n                primo = false;\r\n                //break;\r\n            }\r\n        }\r\n\r\n        if (primo){\r\n            System.out.println(\"É número primo\");\r\n        }\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/loiane/cursojava/aula16/labs/Exercício21.java b/src/com/loiane/cursojava/aula16/labs/Exercício21.java
+--- a/src/com/loiane/cursojava/aula16/labs/Exercício21.java	(revision b6f382fa79e7a7942db7e12a0a923b99f14fe564)
++++ b/src/com/loiane/cursojava/aula16/labs/Exercício21.java	(date 1691079376560)
+@@ -5,26 +5,22 @@
+ public class Exercício21 {
+ 
+     public static void main(String[] args) {
+-
+-         Scanner scan = new Scanner(System.in);
+-
++                Scanner scan = new Scanner(System.in);
+         System.out.println("Entre com um número");
+         int num = scan.nextInt();
+-
+         boolean primo = true;
+ 
+-
+-        for (int i=2; i<num; i++){
+-            if (num % i == 0){
++        for(int i = 2; i < num; ++i) {
++            if (num % i == 0) {
+                 System.out.println("Não é primo - divisível por " + i);
+                 primo = false;
+-                //break;
+             }
+         }
+ 
+-        if (primo){
++        if (primo) {
+             System.out.println("É número primo");
+         }
++
+     }
+ }
+ 
+Index: src/com/loiane/cursojava/aula17/labs/Exercício14.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loiane.cursojava.aula17.labs;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Exercício14 {\r\n\r\n    public static void main(String[] args) {\r\n\r\n        Scanner scan = new Scanner(System.in);\r\n\r\n        int num;\r\n        int pares = 0;\r\n        int impares = 0;\r\n\r\n        for (int i=0; i<10; i++){\r\n\r\n            System.out.println(\"Entre com um número\");\r\n            num = scan.nextInt();\r\n\r\n            if (num%2==0){\r\n                pares++;\r\n            } else {\r\n                impares++;\r\n            }\r\n        }\r\n        System.out.println(\"Pares: \"+ pares);\r\n        System.out.println(\"Impares: \"+ impares);\r\n\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/loiane/cursojava/aula17/labs/Exercício14.java b/src/com/loiane/cursojava/aula17/labs/Exercício14.java
+--- a/src/com/loiane/cursojava/aula17/labs/Exercício14.java	(revision b6f382fa79e7a7942db7e12a0a923b99f14fe564)
++++ b/src/com/loiane/cursojava/aula17/labs/Exercício14.java	(date 1691079376529)
+@@ -5,8 +5,7 @@
+ public class Exercício14 {
+ 
+     public static void main(String[] args) {
+-
+-        Scanner scan = new Scanner(System.in);
++         Scanner scan = new Scanner(System.in);
+ 
+         int num;
+         int pares = 0;
+Index: src/com/loiane/cursojava/aula17/labs/Exercício13.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loiane.cursojava.aula17.labs;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Exercício13 {\r\n\r\n    public static void main(String[] args) {\r\n\r\n        Scanner scan = new Scanner(System.in);\r\n\r\n        System.out.println(\"Entre com a base\");\r\n        int base = scan.nextInt();\r\n\r\n        System.out.println(\"Entre com a potencia\");\r\n        int pot = scan.nextInt();\r\n\r\n        int resultado = base;\r\n\r\n        for (int i=1; i<pot; i++){\r\n            resultado *= base;\r\n\r\n        }\r\n        System.out.println(resultado);\r\n\r\n\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/loiane/cursojava/aula17/labs/Exercício13.java b/src/com/loiane/cursojava/aula17/labs/Exercício13.java
+--- a/src/com/loiane/cursojava/aula17/labs/Exercício13.java	(revision b6f382fa79e7a7942db7e12a0a923b99f14fe564)
++++ b/src/com/loiane/cursojava/aula17/labs/Exercício13.java	(date 1691079375819)
+@@ -5,7 +5,6 @@
+ public class Exercício13 {
+ 
+     public static void main(String[] args) {
+-
+         Scanner scan = new Scanner(System.in);
+ 
+         System.out.println("Entre com a base");
+Index: src/com/loiane/cursojava/aula16/LoopWhile.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loiane.cursojava.aula16;\r\n\r\npublic class LoopWhile {\r\n\r\n    public static void main(String[] args) {\r\n\r\n        int i = 1; //count ou cont\r\n        int max = 10;\r\n\r\n        System.out.println(\" contando até \"+ max);\r\n\r\n        while (i <= max) {\r\n            System.out.println(\"valor de i:\" + i);\r\n            i++;\r\n        }\r\n        System.out.println(i);\r\n\r\n        do {\r\n            i++;\r\n            System.out.println(\"Valor de i: \" + i);\r\n        } while (i < 13);\r\n\r\n        System.out.println(i);\r\n\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/loiane/cursojava/aula16/LoopWhile.java b/src/com/loiane/cursojava/aula16/LoopWhile.java
+--- a/src/com/loiane/cursojava/aula16/LoopWhile.java	(revision b6f382fa79e7a7942db7e12a0a923b99f14fe564)
++++ b/src/com/loiane/cursojava/aula16/LoopWhile.java	(date 1690994231792)
+@@ -24,4 +24,4 @@
+ 
+     }
+ }
+-
++  
+Index: src/com/loiane/cursojava/aula17/labs/Exercício8.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loiane.cursojava.aula17.labs;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Exercício8 {\r\n\r\n    public static void main(String[] args) {\r\n\r\n        Scanner scan = new Scanner(System.in);\r\n        int num;\r\n        int media;\r\n        int soma = 0;\r\n\r\n        for (int i = 1; i <= 5; i++) {\r\n            System.out.println(\"Entre com um número\");\r\n            num = scan.nextInt();\r\n\r\n           soma += num;\r\n        }\r\n        media = soma / 5;\r\n\r\n        System.out.println(\"Soma: \" + soma);\r\n        System.out.println(\"Média: \"+ media);\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/loiane/cursojava/aula17/labs/Exercício8.java b/src/com/loiane/cursojava/aula17/labs/Exercício8.java
+--- a/src/com/loiane/cursojava/aula17/labs/Exercício8.java	(revision b6f382fa79e7a7942db7e12a0a923b99f14fe564)
++++ b/src/com/loiane/cursojava/aula17/labs/Exercício8.java	(date 1691079375422)
+@@ -5,8 +5,7 @@
+ public class Exercício8 {
+ 
+     public static void main(String[] args) {
+-
+-        Scanner scan = new Scanner(System.in);
++         Scanner scan = new Scanner(System.in);
+         int num;
+         int media;
+         int soma = 0;
+@@ -21,6 +20,7 @@
+ 
+         System.out.println("Soma: " + soma);
+         System.out.println("Média: "+ media);
++
+     }
+ }
+ 
+Index: src/com/loiane/cursojava/aula17/labs/Exercício5.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loiane.cursojava.aula17.labs;\r\n\r\npublic class Exercício5 {\r\n\r\n    public static void main(String[] args) {\r\n\r\n        for (int i=1; i<=20; i++){\r\n            System.out.print(i + \" \");\r\n        }\r\n\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/loiane/cursojava/aula17/labs/Exercício5.java b/src/com/loiane/cursojava/aula17/labs/Exercício5.java
+--- a/src/com/loiane/cursojava/aula17/labs/Exercício5.java	(revision b6f382fa79e7a7942db7e12a0a923b99f14fe564)
++++ b/src/com/loiane/cursojava/aula17/labs/Exercício5.java	(date 1691079376810)
+@@ -4,9 +4,10 @@
+ 
+     public static void main(String[] args) {
+ 
+-        for (int i=1; i<=20; i++){
+-            System.out.print(i + " ");
++          for(int i = 1; i <= 20; ++i) {
++            System.out.print("" + i + " ");
+         }
++
+ 
+     }
+ }
+Index: src/com/loiane/cursojava/aula17/labs/Exercício7.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loiane.cursojava.aula17.labs;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Exercício7 {\r\n\r\n    public static void main(String[] args) {\r\n\r\n        Scanner scan = new Scanner(System.in);\r\n        int num;\r\n        int maior = Integer.MIN_VALUE;\r\n\r\n        for (int i = 1; i <= 5; i++) {\r\n            System.out.println(\"Entre com um número\");\r\n            num = scan.nextInt();\r\n\r\n            if (num > maior) {\r\n                maior = num;\r\n                System.out.println(\"O número maior mudou: \" + maior);\r\n            }\r\n\r\n        }\r\n        System.out.println(\"O maior número digitado foi: \" + maior);\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/loiane/cursojava/aula17/labs/Exercício7.java b/src/com/loiane/cursojava/aula17/labs/Exercício7.java
+--- a/src/com/loiane/cursojava/aula17/labs/Exercício7.java	(revision b6f382fa79e7a7942db7e12a0a923b99f14fe564)
++++ b/src/com/loiane/cursojava/aula17/labs/Exercício7.java	(date 1691079376670)
+@@ -6,21 +6,20 @@
+ 
+     public static void main(String[] args) {
+ 
+-        Scanner scan = new Scanner(System.in);
+-        int num;
++         Scanner scan = new Scanner(System.in);
+         int maior = Integer.MIN_VALUE;
+ 
+-        for (int i = 1; i <= 5; i++) {
++        for(int i = 1; i <= 5; ++i) {
+             System.out.println("Entre com um número");
+-            num = scan.nextInt();
+-
++            int num = scan.nextInt();
+             if (num > maior) {
+                 maior = num;
+-                System.out.println("O número maior mudou: " + maior);
++                System.out.println("O número maior mudou: " + num);
+             }
+-
+         }
++
+         System.out.println("O maior número digitado foi: " + maior);
++
+     }
+ }
+ 
+Index: src/com/loiane/cursojava/aula16/labs/Exercício3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loiane.cursojava.aula16.labs;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class Exercício3 {\r\n\r\n    public static void main(String[] args) {\r\n\r\n        Scanner scan = new Scanner(System.in);\r\n\r\n        boolean infoValida = false;\r\n        String nome, genero, estadoCivil;\r\n        int idade;\r\n        double salario;\r\n\r\n        do {\r\n            System.out.println(\"Entre com um nome\");\r\n\r\n            nome = scan.next();\r\n\r\n            if (nome.length() > 3) {\r\n                infoValida = true;\r\n            } else {\r\n                System.out.println(\"Nome precisa de no mínimo 3 caracteres.\");\r\n            }\r\n        }while (!infoValida);\r\n\r\n         do {\r\n            System.out.println(\"Entre a idade\");\r\n\r\n            idade = scan.nextInt();\r\n\r\n            if (idade >= 0 && idade <= 150) {\r\n                infoValida = true;\r\n            } else {\r\n                System.out.println(\"Idade precisa ser entre 0 e 150.\");\r\n            }\r\n        }while (!infoValida);\r\n         do {\r\n            System.out.println(\"Entre o salário\");\r\n\r\n            salario = scan.nextDouble();\r\n\r\n            if (salario > 0) {\r\n                infoValida = true;\r\n            } else {\r\n                System.out.println(\"Salário precisa ser maior que 0.\");\r\n            }\r\n        }while (!infoValida);\r\n\r\n         do {\r\n            System.out.println(\"Entre o gênero\");\r\n\r\n            genero = scan.next();\r\n\r\n            if (genero.equalsIgnoreCase(\"f\") || genero.equalsIgnoreCase(\"m\")) {\r\n                infoValida = true;\r\n            } else {\r\n                System.out.println(\"Genero precisa ser f ou m.\");\r\n            }\r\n        }while (!infoValida);\r\n\r\n          do {\r\n            System.out.println(\"Entre o Estado Civil\");\r\n\r\n            estadoCivil = scan.next();\r\n\r\n            if (genero.equalsIgnoreCase(\"s\") || genero.equalsIgnoreCase(\"c\")\r\n                    || genero.equalsIgnoreCase(\"d\") || genero.equalsIgnoreCase(\"v\")) {\r\n                infoValida = true;\r\n            } else {\r\n                System.out.println(\"Genero precisa ser 's', 'c', 'd' ou 'v'.\");\r\n            }\r\n        }while (!infoValida);\r\n\r\n        System.out.println(\"As seguintes informaçõe foram coletadas:\");\r\n        System.out.println(\"Nome: \" + nome);\r\n        System.out.println(\"Idade: \"+ idade);\r\n        System.out.println(\"salário: \"+ salario);\r\n        System.out.println(\"genero: \"+ genero);\r\n        System.out.println(\"Estado Civil: \"+ estadoCivil);\r\n\r\n\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/loiane/cursojava/aula16/labs/Exercício3.java b/src/com/loiane/cursojava/aula16/labs/Exercício3.java
+--- a/src/com/loiane/cursojava/aula16/labs/Exercício3.java	(revision b6f382fa79e7a7942db7e12a0a923b99f14fe564)
++++ b/src/com/loiane/cursojava/aula16/labs/Exercício3.java	(date 1691079374793)
+@@ -5,82 +5,71 @@
+ public class Exercício3 {
+ 
+     public static void main(String[] args) {
+-
+         Scanner scan = new Scanner(System.in);
+-
+         boolean infoValida = false;
+-        String nome, genero, estadoCivil;
+-        int idade;
+-        double salario;
+ 
++        String nome;
+         do {
+             System.out.println("Entre com um nome");
+-
+             nome = scan.next();
+-
+             if (nome.length() > 3) {
+                 infoValida = true;
+             } else {
+                 System.out.println("Nome precisa de no mínimo 3 caracteres.");
+             }
+-        }while (!infoValida);
++        } while(!infoValida);
+ 
+-         do {
++        int idade;
++        do {
+             System.out.println("Entre a idade");
+-
+             idade = scan.nextInt();
+-
+             if (idade >= 0 && idade <= 150) {
+                 infoValida = true;
+             } else {
+                 System.out.println("Idade precisa ser entre 0 e 150.");
+             }
+-        }while (!infoValida);
+-         do {
++        } while(!infoValida);
++
++        double salario;
++        do {
+             System.out.println("Entre o salário");
+-
+             salario = scan.nextDouble();
+-
+-            if (salario > 0) {
++            if (salario > 0.0) {
+                 infoValida = true;
+             } else {
+                 System.out.println("Salário precisa ser maior que 0.");
+             }
+-        }while (!infoValida);
++        } while(!infoValida);
+ 
+-         do {
++        String genero;
++        do {
+             System.out.println("Entre o gênero");
+-
+             genero = scan.next();
+-
+-            if (genero.equalsIgnoreCase("f") || genero.equalsIgnoreCase("m")) {
+-                infoValida = true;
+-            } else {
++            if (!genero.equalsIgnoreCase("f") && !genero.equalsIgnoreCase("m")) {
+                 System.out.println("Genero precisa ser f ou m.");
++            } else {
++                infoValida = true;
+             }
+-        }while (!infoValida);
++        } while(!infoValida);
+ 
+-          do {
++        String estadoCivil;
++        do {
+             System.out.println("Entre o Estado Civil");
+-
+             estadoCivil = scan.next();
+-
+-            if (genero.equalsIgnoreCase("s") || genero.equalsIgnoreCase("c")
+-                    || genero.equalsIgnoreCase("d") || genero.equalsIgnoreCase("v")) {
+-                infoValida = true;
++            if (!genero.equalsIgnoreCase("s") && !genero.equalsIgnoreCase("c") && !genero.equalsIgnoreCase("d") && !genero.equalsIgnoreCase("v")) {
++                System.out.println("Genero precisa ser 's', 'c', 'd' ou 'v'.");
+             } else {
+-                System.out.println("Genero precisa ser 's', 'c', 'd' ou 'v'.");
++                infoValida = true;
+             }
+-        }while (!infoValida);
++        } while(!infoValida);
+ 
+         System.out.println("As seguintes informaçõe foram coletadas:");
+         System.out.println("Nome: " + nome);
+-        System.out.println("Idade: "+ idade);
+-        System.out.println("salário: "+ salario);
+-        System.out.println("genero: "+ genero);
+-        System.out.println("Estado Civil: "+ estadoCivil);
++        System.out.println("Idade: " + idade);
++        System.out.println("salário: " + salario);
++        System.out.println("genero: " + genero);
++        System.out.println("Estado Civil: " + estadoCivil);
+ 
+-
+     }
+ }
+ 

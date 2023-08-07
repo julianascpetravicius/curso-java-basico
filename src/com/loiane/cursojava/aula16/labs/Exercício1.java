@@ -6,25 +6,20 @@ public class Exercício1 {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
-
+          Scanner scan = new Scanner(System.in);
         boolean notaValida = false;
 
         do {
-
             System.out.println("Entre com uma nota");
-
             double nota = scan.nextDouble();
-
-            if (nota >=0 && nota <= 10){
+            if (nota >= 0.0 && nota <= 10.0) {
                 notaValida = true;
                 System.out.println("Você digitou: " + nota);
             } else {
-                //notaValida = false;
                 System.out.println("Nota inválida, digite novamente.");
             }
+        } while(!notaValida);
 
-        } while (!notaValida);
 
     }
 }

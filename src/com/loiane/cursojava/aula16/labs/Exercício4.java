@@ -4,20 +4,18 @@ public class Exercício4 {
 
     public static void main(String[] args) {
 
-        long popA = 80000;
-        long popB = 200000;
-        int cont = 0;
+        long popA = 80000L;
+        long popB = 200000L;
 
-        while(popA < popB){
-
-            popA += (popA/100)* 3;
-            popB +=  (popB/100) * 1.5;
-            cont++;
+        int cont;
+        for(cont = 0; popA < popB; ++cont) {
+            popA += popA / 100L * 3L;
+            popB = (long)((double)popB + (double)(popB / 100L) * 1.5);
         }
 
-        System.out.println("População A: "+ popA);
-        System.out.println("População B: "+ popB);
-        System.out.println("Qtd anos:    "+ cont);
+        System.out.println("População A: " + popA);
+        System.out.println("População B: " + popB);
+        System.out.println("Qtd anos:    " + cont);
 
     }
 }

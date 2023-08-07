@@ -19,6 +19,7 @@ public class Exercício18 {
             System.out.println(i);
         }
         System.out.println("Resultado: "+ fatorial);
+
     }
 }
 

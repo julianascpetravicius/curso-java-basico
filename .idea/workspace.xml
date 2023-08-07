@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Exercícios aula 14-15.">
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/LoopWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/LoopFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/labs/Exercício1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/labs/Exercício2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/labs/Exercício3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula19/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula19/Arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/Matrizes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/Matrizes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +51,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../Program Files/Java/jdk-20/lib/src.zip!/java.net.http/jdk/internal/net/http/HttpClientImpl.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2T4BxdwF2IpjpJbRcY6FpbXQVWL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

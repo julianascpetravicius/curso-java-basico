@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Exercício8 {
 
     public static void main(String[] args) {
-
-        Scanner scan = new Scanner(System.in);
+         Scanner scan = new Scanner(System.in);
         int num;
         int media;
         int soma = 0;
@@ -21,6 +20,7 @@ public class Exercício8 {
 
         System.out.println("Soma: " + soma);
         System.out.println("Média: "+ media);
+
     }
 }
 

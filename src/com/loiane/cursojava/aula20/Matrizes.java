@@ -1,5 +1,5 @@
 package com.loiane.cursojava.aula20;
- // Armazenar 4 notas de 30 alunos
+ // Armazenar 4 notas de 3 alunos
 public class Matrizes {
 
      public static void main(String[] args) {

@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Exercício14 {
 
     public static void main(String[] args) {
-
-        Scanner scan = new Scanner(System.in);
+         Scanner scan = new Scanner(System.in);
 
         int num;
         int pares = 0;
