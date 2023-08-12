@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Exercícios aula 14-15.">
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/labs/Exercício1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/labs/Exercício2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/labs/Exercício3.java" afterDir="false" />
+    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Exercícios Matrizes.">
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/labs/Exercício4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/labs/Exercício5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/labs/Exercício6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula16/labs/Exercício4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula17/labs/Exercício8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula19/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula19/Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/Matrizes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/Matrizes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690812662269</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Exercícios Matrizes.">
+      <option name="closed" value="true" />
+      <created>1691414264774</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1691414264774</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,7 +228,8 @@
     <MESSAGE value="Exercícios corrigidos aula 13." />
     <MESSAGE value="Exercícios aula 13-14." />
     <MESSAGE value="Exercícios aula 14-15." />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercícios aula 14-15." />
+    <MESSAGE value="Exercícios Matrizes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercícios Matrizes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
