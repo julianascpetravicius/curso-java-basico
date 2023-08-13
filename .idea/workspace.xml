@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Exercícios Matrizes.">
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/labs/Exercício4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/labs/Exercício5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula20/labs/Exercício6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Exercícios Matrizes." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
