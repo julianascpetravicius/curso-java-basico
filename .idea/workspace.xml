@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Exercícios Matrizes." />
+    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Classe, Objetos e atributos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,7 +189,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691414264774</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Loop For Each.">
+      <option name="closed" value="true" />
+      <created>1691970933688</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1691970933688</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Classe, Objetos e atributos">
+      <option name="closed" value="true" />
+      <created>1691971252736</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1691971252736</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,7 +240,9 @@
     <MESSAGE value="Exercícios aula 13-14." />
     <MESSAGE value="Exercícios aula 14-15." />
     <MESSAGE value="Exercícios Matrizes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercícios Matrizes." />
+    <MESSAGE value="Loop For Each." />
+    <MESSAGE value="Classe, Objetos e atributos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classe, Objetos e atributos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
