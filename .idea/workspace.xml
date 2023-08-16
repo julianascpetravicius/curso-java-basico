@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Classe, Objetos e atributos">
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula24/labs/Exercício1/Lampada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula24/labs/Exercício1/TesteLampada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula24/labs/Exercício2/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula24/labs/Exercício2/LivroDeBiblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula24/labs/Exercício2/LivroDeLivraria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula24/labs/Exercício5/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula24/labs/Exercício6/Agenda.java" afterDir="false" />
+    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Exercícios aula 24.">
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula25/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula25/TesteCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula26/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula26/TesteCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula27/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula27/TesteCarro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -227,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692024212057</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Exercícios aula 24.">
+      <option name="closed" value="true" />
+      <created>1692031368165</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1692031368165</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +271,8 @@
     <MESSAGE value="Exercícios Matrizes." />
     <MESSAGE value="Loop For Each." />
     <MESSAGE value="Classe, Objetos e atributos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classe, Objetos e atributos" />
+    <MESSAGE value="Exercícios aula 24." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercícios aula 24." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
