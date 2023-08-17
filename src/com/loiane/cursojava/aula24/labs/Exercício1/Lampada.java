@@ -10,5 +10,7 @@ public class Lampada {
     boolean tipoAbajur;
 
 
+
+
 }
 
