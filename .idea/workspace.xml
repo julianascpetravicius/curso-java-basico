@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Exercícios aula 27">
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula29/Carro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
+    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Aulas 29 a 32.">
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula33/MinhaCalculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula33/TesteCalculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula33/labs/exercicio01/Exer01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula33/labs/exercicio01/Lampada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula33/labs/exercicio02/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula33/labs/exercicio02/Exer02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula33/labs/exercicio03/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula33/labs/exercicio03/Exer03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula33/labs/exercicio04/Exer04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula33/labs/exercicio04/JogoDaVelha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -278,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692647947637</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Aulas 29 a 32.">
+      <option name="closed" value="true" />
+      <created>1693004218528</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1693004218528</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,7 +334,8 @@
     <MESSAGE value="Exercícios aula 24." />
     <MESSAGE value="Método com retorno e Método com parâmetro." />
     <MESSAGE value="Exercícios aula 27" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercícios aula 27" />
+    <MESSAGE value="Aulas 29 a 32." />
+    <option name="LAST_COMMIT_MESSAGE" value="Aulas 29 a 32." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
