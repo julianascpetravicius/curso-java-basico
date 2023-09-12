@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Aula 36.">
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula36/labs/Agenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula36/labs/Contato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula36/labs/Nome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula36/labs/Teste.java" afterDir="false" />
+    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Aula 36 labs.">
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula36/labs/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula36/labs/Curso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula36/labs/Exer02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula36/labs/Nota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula36/labs/Professor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula36/labs/Nome.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,32 +44,32 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2T4BxdwF2IpjpJbRcY6FpbXQVWL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/kawan/curso-java-basico",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/curso-java-basico/curso-java-basico/src/Main.java",
-    "settings.editor.selected.configurable": "copyright",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kawan/curso-java-basico&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/curso-java-basico/curso-java-basico/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.loiane.cursojava.aula24.labs" />
@@ -101,7 +103,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690292726184</updated>
-      <workItem from="1694432971522" duration="20313000" />
+      <workItem from="1694432971522" duration="21479000" />
+      <workItem from="1694521989434" duration="12863000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos Primitivos e Variaveis.java">
       <option name="closed" value="true" />
@@ -335,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694449640757</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Aula 36 labs.">
+      <option name="closed" value="true" />
+      <created>1694465680033</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1694465680033</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +392,8 @@
     <MESSAGE value="Aulas 29 a 32." />
     <MESSAGE value="Aula 33." />
     <MESSAGE value="Aula 36." />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 36." />
+    <MESSAGE value="Aula 36 labs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula 36 labs." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
