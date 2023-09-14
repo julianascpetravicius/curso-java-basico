@@ -1,6 +1,6 @@
-package com.loiane.cursojava.aula40;
+package com.loiane.cursojava.aula41;
 
-public class Aluno extends Pessoa {
+public  class Aluno extends Pessoa {
 
 
     private String curso;
@@ -50,7 +50,12 @@ public class Aluno extends Pessoa {
 
         return s;
     }
+    public void imprimirEtiquetaEndereco() {
+
+        System.out.println("Imprimindo endereço do Aluno: ");
+        System.out.println(this.obterEtiquetaEndereco());
 
 
+    }
 }
 

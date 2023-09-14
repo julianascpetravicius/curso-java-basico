@@ -1,21 +1,21 @@
-package com.loiane.cursojava.aula40;
+package com.loiane.cursojava.aula42;
 
-public class Professor extends Pessoa {
+public class Professor  {
 
 
     private double salario;
     private String nomeCurso;
 
-    public Professor(String nome, String endereco, String telefone, String cpf, String telefoneCelular) {
-        super(nome, endereco, telefone, cpf, telefoneCelular);
-    }
+    //public Professor(String nome, String endereco, String telefone, String cpf, String telefoneCelular) {
+       // super(nome, endereco, telefone, cpf, telefoneCelular);
+    //}
 
     public Professor() {
         super();
     }
 
     public Professor(String nome, String endereco, String telefone, String cpf, String telefoneCelular, String nomeCurso) {
-        super(nome, endereco, telefone, cpf, telefoneCelular);
+        //super(nome, endereco, telefone, cpf, telefoneCelular);
         this.nomeCurso = nomeCurso;
     }
 
@@ -41,9 +41,18 @@ public class Professor extends Pessoa {
     public String obterEtiquetaEndereco(){
 
         String s= "Endereço do Professor: ";
-        s += super.getEndereco();
+        //s += super.getEndereco();
 
         return s;
     }
 
-  }
+    //@Override
+    public void imprimirEtiquetaEndereco() {
+
+        System.out.println("Imprimindo endereço Professor: ");
+        System.out.println(this.obterEtiquetaEndereco());
+
+
+    }
+
+}

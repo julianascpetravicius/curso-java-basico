@@ -5,24 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Aula 36 labs.">
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula37/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula37/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula37/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula37/Teste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula38/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula38/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula38/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula38/Teste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula39/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula39/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula39/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula39/Teste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula40/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula40/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula40/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula40/Teste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula41/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula41/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula41/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula41/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula42/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula42/Constantes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula42/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula42/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula42/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/Teste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula40/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula40/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula40/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula40/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula40/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula40/Teste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2T4BxdwF2IpjpJbRcY6FpbXQVWL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,7 +70,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/kawan/curso-java-basico/src/com/loiane/cursojava/aula40",
+    "last_opened_file_path": "C:/Users/kawan/curso-java-basico/src/com/loiane/cursojava/aula42",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,9 +86,13 @@
       <recent name="com.loiane.cursojava.aula24.labs" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kawan\curso-java-basico\src\com\loiane\cursojava\aula42" />
       <recent name="C:\Users\kawan\curso-java-basico\src\com\loiane\cursojava\aula40" />
       <recent name="C:\Users\kawan\curso-java-basico\src\com\loiane\cursojava\aula39" />
       <recent name="C:\Users\kawan\curso-java-basico\src\com\loiane\cursojava\aula38" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.loiane.cursojava.aula43" />
     </key>
   </component>
   <component name="RunManager">
@@ -123,6 +126,7 @@
       <workItem from="1694432971522" duration="21479000" />
       <workItem from="1694521989434" duration="14777000" />
       <workItem from="1694615293603" duration="10185000" />
+      <workItem from="1694688113904" duration="6822000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos Primitivos e Variaveis.java">
       <option name="closed" value="true" />

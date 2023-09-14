@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula40;
+package com.loiane.cursojava.aula41;
 
 public class Professor extends Pessoa {
 
@@ -46,4 +46,13 @@ public class Professor extends Pessoa {
         return s;
     }
 
-  }
+    @Override
+    public void imprimirEtiquetaEndereco() {
+
+        System.out.println("Imprimindo endereço Professor: ");
+        System.out.println(this.obterEtiquetaEndereco());
+
+
+    }
+
+}

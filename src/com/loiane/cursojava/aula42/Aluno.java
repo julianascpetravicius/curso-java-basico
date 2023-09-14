@@ -1,13 +1,13 @@
-package com.loiane.cursojava.aula40;
+package com.loiane.cursojava.aula42;
 
-public class Aluno extends Pessoa {
+public  class Aluno  {
 
 
     private String curso;
     private double[] notas;
 
     public Aluno(String nome, String endereco, String telefone, String cpf, String telefoneCelular, String curso) {
-        super(nome, endereco, telefone, cpf, telefoneCelular);
+       // super(nome, endereco, telefone, cpf, telefoneCelular);
         this.curso = curso;
     }
 
@@ -39,18 +39,23 @@ public class Aluno extends Pessoa {
     }
 
     public void metodoQualquer(){
-        super.setCpf("3456789");
-        this.setCpf("34567890");
+        //super.setCpf("3456789");
+       // this.setCpf("34567890");
     }
 
     public String obterEtiquetaEndereco(){
 
         String s= "Endereço do Aluno: ";
-        s += super.getEndereco();
+        //s += super.getEndereco();
 
         return s;
     }
+    public void imprimirEtiquetaEndereco() {
+
+        System.out.println("Imprimindo endereço do Aluno: ");
+        System.out.println(this.obterEtiquetaEndereco());
 
 
+    }
 }
 
