@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula43.labs.exercicio02;
+package com.loiane.cursojava.aula43.labs.exercicio03;
 
 public class Peixe extends Animal {
 

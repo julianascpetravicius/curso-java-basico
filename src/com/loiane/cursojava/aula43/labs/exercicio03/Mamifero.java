@@ -1,19 +1,31 @@
-package com.loiane.cursojava.aula43.labs.exercicio02;
+package com.loiane.cursojava.aula43.labs.exercicio03;
 
-public class Urso extends Mamifero {
-    public Urso() {
+public class Mamifero extends Animal {
+
+    private String alimento;
+
+    public String getAlimento() {
+        return alimento;
     }
 
-    public Urso(String nome, double comprimento, int numPatas, String cor, String ambiente, double velocidade) {
+    public void setAlimento(String alimento) {
+        this.alimento = alimento;
+    }
+
+    public Mamifero() {
+    }
+
+    public Mamifero(String nome, double comprimento, int numPatas, String cor, String ambiente, double velocidade) {
         super(nome, comprimento, numPatas, cor, ambiente, velocidade);
     }
 
     @Override
     public String toString() {
-        return "Urso{} " + super.toString();
+        return "Mamifero{" +
+                "alimento='" + alimento + '\'' +
+                "} " + super.toString();
     }
     public void imprimirAnimais(){
-
 
         System.out.println("nome: " + getNome());
         System.out.println("comprimento: " + getComprimento());
@@ -24,4 +36,6 @@ public class Urso extends Mamifero {
         System.out.println("Alimento: " + getAlimento());
 
     }
+
+
 }

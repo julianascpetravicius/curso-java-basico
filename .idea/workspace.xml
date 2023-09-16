@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Aulas 41, 42 e 43.">
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio02/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio02/Mamifero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio02/Peixe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio02/Teste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio02/Urso.java" afterDir="false" />
+    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Ecercício 03 aula 43.">
+      <changelist_data name="Juliana Petravicius" email="julianacelinopetra@gmail.com" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio02/Contribuinte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio02/PessoaFisica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio02/PessoaJuridica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio03/Teste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio02/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio03/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio02/Mamifero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio03/Mamifero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio02/Peixe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio03/Peixe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio02/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio02/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio02/Urso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula43/labs/exercicio03/Urso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +39,11 @@
     <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Juliana Petravicius &lt;julianacelinopetra@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -121,7 +131,7 @@
       <workItem from="1694521989434" duration="14777000" />
       <workItem from="1694615293603" duration="10185000" />
       <workItem from="1694688113904" duration="12793000" />
-      <workItem from="1694785792133" duration="18670000" />
+      <workItem from="1694785792133" duration="26335000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos Primitivos e Variaveis.java">
       <option name="closed" value="true" />
@@ -387,7 +397,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694800336440</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Ecercício 02 aula 43.">
+      <option name="closed" value="true" />
+      <created>1694819724546</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1694819724546</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Ecercício 03 aula 43.">
+      <option name="closed" value="true" />
+      <created>1694819771903</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1694819771903</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +461,11 @@
     <MESSAGE value="Aula 36." />
     <MESSAGE value="Aula 36 labs." />
     <MESSAGE value="Aulas 41, 42 e 43." />
-    <option name="LAST_COMMIT_MESSAGE" value="Aulas 41, 42 e 43." />
+    <MESSAGE value="Ecercício 02 aula 43." />
+    <MESSAGE value="Ecercício 03 aula 43." />
+    <MESSAGE value="Exercício 03 aula 43." />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
