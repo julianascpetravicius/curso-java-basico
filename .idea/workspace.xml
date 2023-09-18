@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Aula 44 a 46.">
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula46/Labs/Exercicio01/Cilindro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula46/Labs/Exercicio01/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula46/Labs/Exercicio01/Cubo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula46/Labs/Exercicio01/DimensaoSuperficial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula46/Labs/Exercicio01/DimensaoVolumetrica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula46/Labs/Exercicio01/Figura2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula46/Labs/Exercicio01/Figura3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula46/Labs/Exercicio01/FiguraGeometrica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula46/Labs/Exercicio01/Piramide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula46/Labs/Exercicio01/Quadrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula46/Labs/Exercicio01/Teste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula46/Labs/Exercicio01/Triangulo.java" afterDir="false" />
+    <list default="true" id="48a6a70d-6c32-41eb-a527-560bb0e93c6a" name="Changes" comment="Exercícios 1-3 aula 46.">
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula47/Excecao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula47/MultiplosCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula48/MultiplosCatchGenerico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula48/MultiplosCatchjava7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula49/PegadinhaFinally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula49/TestandoFinally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula50/ExceptionGenerica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula50/UsandoThrows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula52/DivisaoNaoExata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/loiane/cursojava/aula52/MinhaException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +72,7 @@
     "WebServerToolWindowFactoryState": "false",
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/kawan/curso-java-basico/src/com/loiane/cursojava/aula45",
+    "last_opened_file_path": "C:/Users/kawan/curso-java-basico/src/com/loiane/cursojava/aula48",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,11 +91,11 @@
       <recent name="com.loiane.cursojava.aula24.labs" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kawan\curso-java-basico\src\com\loiane\cursojava\aula48" />
       <recent name="C:\Users\kawan\curso-java-basico\src\com\loiane\cursojava\aula45" />
       <recent name="C:\Users\kawan\curso-java-basico\src\com\loiane\cursojava\aula42" />
       <recent name="C:\Users\kawan\curso-java-basico\src\com\loiane\cursojava\aula40" />
       <recent name="C:\Users\kawan\curso-java-basico\src\com\loiane\cursojava\aula39" />
-      <recent name="C:\Users\kawan\curso-java-basico\src\com\loiane\cursojava\aula38" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.loiane.cursojava.aula43" />
@@ -136,7 +134,7 @@
       <workItem from="1694615293603" duration="10185000" />
       <workItem from="1694688113904" duration="12793000" />
       <workItem from="1694785792133" duration="26335000" />
-      <workItem from="1694956037796" duration="9310000" />
+      <workItem from="1694956037796" duration="16687000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos Primitivos e Variaveis.java">
       <option name="closed" value="true" />
@@ -426,7 +424,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694969054585</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Exercícios 1-3 aula 46.">
+      <option name="closed" value="true" />
+      <created>1694974629371</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1694974629371</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +485,8 @@
     <MESSAGE value="Exercício 03 aula 43." />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="Aula 44 a 46." />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula 44 a 46." />
+    <MESSAGE value="Exercícios 1-3 aula 46." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercícios 1-3 aula 46." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -498,6 +505,11 @@
           <url>file://$PROJECT_DIR$/src/com/loiane/cursojava/aula13/OperadoresRelacionais.java</url>
           <line>6</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/loiane/cursojava/aula47/Excecao.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
